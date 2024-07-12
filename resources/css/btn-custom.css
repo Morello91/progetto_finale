@@ -1,0 +1,187 @@
+/* Bottone */
+
+a {
+    text-decoration: none;
+}
+
+.primary-button {
+    padding: 12.5px 30px;
+    margin: 0px;
+    border: 0;
+    border-radius: 100px;
+    background-color: var(--primary-color);
+    color: var(--color-white);
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.primary-button:hover {
+    color: var(--color-white);
+    background-color: var(--primary-color);
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+}
+
+.primary-button:active {
+    color: var(--color-white);
+    /* background-color: #3d94cf; */
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+
+
+.secondary-button {
+    padding: 12.5px 30px;
+    margin: 0px;
+    border: 0;
+    width: auto;
+    height: auto;
+    border-radius: 100px;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.secondary-button:hover {
+    color: var(--color-black);
+    background-color: var(--color-white);
+    /* box-shadow: 0 0 20px #6fc5ff50; */
+    transform: scale(1.1);
+}
+
+.secondary-button:active {
+    color: var(--color-black);
+    /* background-color: #3d94cf; */
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+
+.thertiry-button{
+    padding: 12.5px 30px;
+    margin: 0px;
+    border: 0;
+    width: auto;
+    height: auto;
+    border-radius: 100px;
+    background-color: var(--color-thertiry);
+    color: var(--color-white);
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.thertiry-button:hover {
+    color: var(--color-white);
+    background-color: var(--color-thertiry);
+    /* box-shadow: 0 0 20px #6fc5ff50; */
+    transform: scale(1.1);
+}
+
+.thertiry-button:active {
+    color: var(--color-white);
+    /* background-color: #3d94cf; */
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+
+.delate-button{
+    /* padding: 12.5px 30px; */
+    margin: 0px;
+    border: 0;
+    width: auto;
+    height: auto;
+    border-radius: 100px;
+    background-color: var(--color-delate);
+    color: var(--color-white);
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.delate-button:hover {
+    color: var(--color-white);
+    background-color: var(--color-delate);
+    transform: scale(1.1);
+}
+
+.delate-button:active {
+    color: var(--color-white);
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+
+.success-button{
+    /* padding: 12.5px 30px; */
+    margin: 0px;
+    border: 0;
+    width: auto;
+    height: auto;
+    border-radius: 100px;
+    background-color: var(--color-success);
+    color: var(--color-white);
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.success-button:hover {
+    color: var(--color-white);
+    background-color: var(--color-success);
+    transform: scale(1.1);
+}
+
+.success-button:active {
+    color: var(--color-white);
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+
+.back-button{
+    /* padding: 12.5px 30px; */
+    margin: 0px;
+    border: 0;
+    width: auto;
+    height: auto;
+    border-radius: 100px;
+    background-color: var(--color-back);
+    color: var(--color-white);
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.back-button:hover {
+    color: var(--color-white);
+    background-color: var(--color-back);
+    transform: scale(1.1);
+}
+
+.back-button:active {
+    color: var(--color-white);
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+
+
+
+@media (max-width:720px) {
+    .secondary-button {
+        width: auto;
+        height: auto;
+    }
+}

@@ -1,0 +1,10 @@
+.rounded-gradient {
+    background: var(--primary-color);
+    border-radius: 0% 0% 22% 22% / 0% 0% 24% 24%;
+    padding: 40px 40px 40px 40px;
+    color: var(--color-white);
+}
+
+.align-items-center {
+    height: 100%;
+}

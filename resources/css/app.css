@@ -1,0 +1,13 @@
+@import 'bootstrap';
+@import 'bootstrap-icons';
+@import 'layout.css';
+@import 'custom.css';
+@import 'search-bar.css';
+@import 'footer.css';
+@import 'login-form.css';
+@import 'forgot-password.css';
+@import 'card-custom.css';
+@import 'btn-custom.css';
+@import 'navbar.css';
+@import 'header.css';
+@import 'form-create-article.css';

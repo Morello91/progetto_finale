@@ -1,0 +1,65 @@
+@media(min-width: 1000px){
+    .box{
+        height: 30px;
+        display: flex;
+        cursor: pointer;
+        padding: 10px 20px;
+        background: var(--color-white);
+        border-radius: 30px;
+        align-items: center;
+    }
+        
+    .box:hover .input-search{
+        width: 200px;
+    }
+    
+    .box .input-search{
+        width: 0;
+        outline: none;
+        border: none;
+        font-weight: 500;
+        transition: 0.8s;
+        background: transparent;
+    }
+    
+    .box button .bi{
+        font-size: 18px;
+    }
+    
+    .box .btn-c{
+        border: none;
+        background: none;
+        outline: none;
+    }
+}
+
+@media(max-width: 1000px){
+    .box{
+        height: 30px;
+        width: 250px;
+        display: flex;
+        padding: 10px 20px;
+        margin: 10px 0px;
+        background: var(--color-white);
+        border-radius: 30px;
+        align-items: center;
+    }
+
+    .box .input-search{
+        outline: none;
+        border: none;
+        font-weight: 500;
+        background: transparent;
+    }
+    
+    .box button .bi{
+        font-size: 18px;
+    }
+    
+    .box .btn-c{
+        border: none;
+        background: none;
+        outline: none;
+    }
+    
+}

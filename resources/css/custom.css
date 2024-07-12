@@ -1,0 +1,25 @@
+.m-custom {
+  margin-top: 66px;
+  min-height: 100vh;
+}
+
+.heightCustom {
+  min-height: 100vh;
+  height: 100%;
+  margin-bottom: 100px;
+}
+
+
+.logoSfondo {
+  max-width: 80%;
+  height: auto;
+}
+
+
+.img-preview {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120px;
+  width: 120px;
+}

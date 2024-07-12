@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #3586ff;
+    --color-login: #333;
+    --color-white: #E8F5FF;
+    --color-black: #000000;
+    --color-thertiry: #ff8e24;
+    --color-thertiry-hover: #e99a40;
+    --color-form: #fff;
+    --color-delate: #ec0012;
+    --color-success: #2cb62a;
+    --color-back: #ad9fec;
+}
+
+body{
+    background-color: var(--color-white);
+}
+
+.margin-custom{
+    margin-bottom: 100px;
+}
